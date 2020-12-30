@@ -1,0 +1,73 @@
+.example1 h5 {
+  color: red;
+}
+
+.example2 h5 {
+  color: rgb(0, 183, 255);
+}
+
+.example3 h5 {
+  color: rgb(71, 80, 87);
+}
+
+.first_img {
+  background-image: url("./img/bg-1.jpg");
+
+  /* Set a specific height */
+  height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.first_column {
+  /* max-width: 400vh; */
+  align-items: center;
+}
+.second_column {
+  align-items: center;
+}
+
+.third_column {
+  /* The image used */
+  background-image: url("./img/bg-2.jpg");
+
+  /* Set a specific height */
+  height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.big_column h5 {
+  color: grey;
+}
+
+.big_column_card {
+  align-items: center;
+}
+
+.contact_form {
+  /* The image used */
+  background-image: url("./img/bg-3.jpg");
+
+  /* Set a specific height */
+  height: 550px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.test a:hover {
+  background-color: rgba(174, 187, 197, 0.342);
+}
